@@ -13,7 +13,7 @@ import viewsRouter from "./router/views.router.js";
 import productsRouter from "./router/products.router.js";
 import cartRouter from "./router/carts.router.js";
 import { productManager } from "./dao/db/product.js";
-import { messageManager } from "./dao/db/message.js";
+import { messageManager } from "/dao/db/message.js";
 
 const app = express();
 app.use(cookieParser());

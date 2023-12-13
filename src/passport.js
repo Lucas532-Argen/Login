@@ -2,7 +2,7 @@ import passport from "passport";
 import { Strategy as githubStrategy } from "passport-github2";
 import { Strategy as strategy } from "passport-local";
 import { compareData, hashData } from "./utils.js";
-import { usersManager } from "./dao/db/users.js";
+import { usersManager } from "/dao/db/users.js";
 
 passport.use(
   "signup",

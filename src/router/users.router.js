@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { usersManager } from "../dao/db/users.js";
+import { usersManager } from "./dao/db/users.js";
 import { compareData, hashData } from "../utils.js";
 import passport from "passport";
 const router = Router();
